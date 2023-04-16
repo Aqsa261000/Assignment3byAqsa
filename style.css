@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #1a1a1a;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input,
+select {
+	padding: 5px;
+	margin-right: 10px;
+}
+
+button {
+	padding: 5px 10px;
+	background-color: #1a1a1a;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #333;
+}
+
+#recommendations {
+	margin-top: 20px;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+#movieList {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.movieItem {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.movieItem h3 {
+	margin: 0 0 5px 0;
+}
+
+.movieItem p {
+	margin: 0;
+	font-style: italic;
+}
